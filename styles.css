@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(to right, #ffafbd , #ffc3a0);
+}
+
+.box{
+    text-align: center;
+    background-color: rgb(52, 196, 172);
+}
+
+.logo{
+    width: 80px;
+    float: left;
+    height: 50px;
+    margin-right: 50px;
+    margin-top: -64px;
+    margin-left: -32px;
+}
+
+.display-4{
+    animation-name: msg;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes msg{
+    0%   {color : black;}
+    50% {color : #28a745;}
+    100% {color : black}
+}
+
+#bottoms{
+    color:black;
+    float: right;
+    text-decoration: none;
+    margin-top: -50px;
+}
+
+#bottoms:hover{
+    color: #007bff;
+}
